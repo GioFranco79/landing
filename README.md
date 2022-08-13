@@ -14,7 +14,7 @@ Diseñado para la simplicidad.
  
 ## Installation
 
-1. `git clone https://github.com/adrianfrancof/landingexample.git`
+1. `git clone https://github.com/GioFranco79/landing.git`
 
 2. Open `index.html`. That's it!
 
