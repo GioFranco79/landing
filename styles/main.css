@@ -10,26 +10,30 @@
 html,
 body {
     height: 100vh;
-    /*place-items: center;*/
     background-color: black;
 }
 
-.content-wrapper {
-    /*display: grid;*/
-    /*place-items: center;*/
-    margin-top: 30px;
+.page-wrapper {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-items: center;
 }
 
 h1 {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 5em;
+    font-size: 4.5em;
     letter-spacing: -0.04em;
 }
 
 p {
-    /*color: rgb(192, 84, 208);*/
     color: darkcyan;
     font-family: "Comfortaa", cursive;
     font-size: 1.5em;
@@ -48,17 +52,33 @@ p {
 
 .icon:hover {
     cursor: pointer;
-    /*background-color: rgb(192, 84, 208);*/
     background-color: darkgray;
+}
+
+#foto {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px 150px 150px 150px;
+}
+
+#cara {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border: solid 3px white;
+    border-radius: 150px 150px 150px 150px;
+    margin-bottom: 50px;
+    margin-right: 90px;
 }
 
 #half1 {
     height: 520px;
     display: inline-block;
     padding: 15px;
-    border: solid 2px white;
+    border: solid 3px white;
     border-radius: 20px 0 0 20px;
     background-color: darkgrey;
+    margin-bottom: 50px;
 }
 
 #half2 {
@@ -67,7 +87,7 @@ p {
     height: 520px;
     display: inline-block;
     padding: 15px;
-    border: solid 2px white;
+    border: solid 3px white;
     border-radius: 0 20px 20px 0;
     background-color: darkcyan;
 }
@@ -89,19 +109,17 @@ a:link {
 /************ Cubo *****************/
 
 #half3 {
-    height: 200px;
-    width: 200px;
-    margin-left: 130px;
-    padding-bottom: 120px;
+    height: 520px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 100px;
     display: inline-block;
-    -webkit-perspective: 300;
 }
 
 .contenedor {
     width: 100vw;
     height: 100vh;
-    /*display: flex;
-    flex-direction: column;*/
+    margin-left: 30px;
     justify-content: center;
     align-items: center;
 }
