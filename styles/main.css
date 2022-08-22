@@ -34,7 +34,7 @@ h1 {
 }
 
 p {
-    color: darkcyan;
+    color: steelblue;
     font-family: "Comfortaa", cursive;
     font-size: 1.5em;
     margin: 15px 0;
@@ -89,7 +89,7 @@ p {
     padding: 15px;
     border: solid 3px white;
     border-radius: 0 20px 20px 0;
-    background-color: darkcyan;
+    background-color: steelblue;
 }
 
 footer {
@@ -98,7 +98,7 @@ footer {
 }
 
 a:visited {
-    color: darkcyan;
+    color: steelblue;
 }
 
 a:link {
