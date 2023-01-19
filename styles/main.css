@@ -2,6 +2,185 @@
 
 /* https://fonts.google.com/ */
 
+@media only screen and (max-width:500px) {
+
+    .page-wrapper {
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-wrapper {
+        margin: 50px auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #half1 {
+        height: 530px;
+        width: 360px;
+        margin: 40px auto;
+        text-align: center;
+        padding: 15px;
+        border: solid 3px white;
+        border-radius: 20px 20px 20px 20px;
+        background-color: darkgrey;        
+    }
+    
+    #half2 {
+        height: 500px;
+        width: 80px;
+        margin: 40px auto;        
+        text-align: center;        
+        padding: 15px;
+        border: solid 3px white;
+        border-radius: 20px 20px 20px 20px;
+        background-color: steelblue;
+    }
+
+    #half3 {
+        height: 520px;
+        width: 300px;
+        margin: 25px auto;
+        text-align: center;       
+    }
+
+    #caragio {
+        height: 250px;
+        width: 250px;       
+        border: solid 3px white;
+        border-radius: 150px 150px 150px 150px;
+        margin: 50px auto;       
+    }
+
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        margin: 30px auto;
+        padding-left: 18%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1023px) and (min-width:501px) {
+    .page-wrapper {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .content-wrapper {
+        margin: 50px auto;    
+        text-align: center;           
+    }
+    
+    #half1 {
+        height: 510px;
+        display: inline-block;
+        padding: 15px;
+        margin-right: 20px;        
+        border: solid 3px white;
+        border-radius: 20px 0 0 20px;
+        background-color: darkgrey;        
+    }
+    
+    #half2 {        
+        height: 510px;        
+        display: inline-block;
+        padding: 15px;
+        margin: auto 0;
+        border: solid 3px white;
+        border-radius: 0 20px 20px 0;
+        background-color: steelblue;
+    }
+
+    #half3 {
+        height: 520px;
+        width: 300px;
+        margin: 25px auto; 
+        text-align: center;       
+    }
+
+    #caragio {
+        height: 250px;
+        width: 250px;       
+        border: solid 3px white;
+        border-radius: 150px 150px 150px 150px;
+        margin: 50px auto;        
+    }
+
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        margin: 30px auto;
+        padding-left: 18%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .page-wrapper {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .content-wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-items: center;
+    }
+    
+    #half1 {
+        height: 520px;
+        display: inline-block;
+        padding: 15px;
+        border: solid 3px white;
+        border-radius: 20px 0 0 20px;
+        background-color: darkgrey;
+        margin-bottom: 50px;
+    }
+    
+    #half2 {
+        margin-left: 15px;
+        margin-bottom: 45px;
+        height: 520px;
+        display: inline-block;
+        padding: 15px;
+        border: solid 3px white;
+        border-radius: 0 20px 20px 0;
+        background-color: steelblue;
+    }
+
+    #half3 {
+        height: 520px;
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 100px;
+        display: inline-block;
+    }
+
+    #caragio {
+        height: 250px;
+        width: 250px;
+        display: inline-block;
+        border: solid 3px white;
+        border-radius: 150px 150px 150px 150px;
+        margin-bottom: 50px;
+        margin-right: 90px;
+    }
+
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 30px;
+        justify-content: center;      
+    }
+}
+
 * {
     margin: 0;
     text-decoration: none;
@@ -11,19 +190,6 @@ html,
 body {
     height: 100vh;
     background-color: black;
-}
-
-.page-wrapper {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
-
-.content-wrapper {
-    margin-top: 50px;
-    display: flex;
-    justify-items: center;
 }
 
 h1 {
@@ -61,37 +227,6 @@ p {
     border-radius: 150px 150px 150px 150px;
 }
 
-#cara {
-    height: 250px;
-    width: 250px;
-    display: inline-block;
-    border: solid 3px white;
-    border-radius: 150px 150px 150px 150px;
-    margin-bottom: 50px;
-    margin-right: 90px;
-}
-
-#half1 {
-    height: 520px;
-    display: inline-block;
-    padding: 15px;
-    border: solid 3px white;
-    border-radius: 20px 0 0 20px;
-    background-color: darkgrey;
-    margin-bottom: 50px;
-}
-
-#half2 {
-    margin-left: 15px;
-    margin-bottom: 45px;
-    height: 520px;
-    display: inline-block;
-    padding: 15px;
-    border: solid 3px white;
-    border-radius: 0 20px 20px 0;
-    background-color: steelblue;
-}
-
 footer {
     margin-top: 65px;
     text-align: center;
@@ -108,26 +243,10 @@ a:link {
 
 /************ Cubo *****************/
 
-#half3 {
-    height: 520px;
-    width: 300px;
-    margin-top: 15px;
-    margin-left: 100px;
-    display: inline-block;
-}
-
-.contenedor {
-    width: 100vw;
-    height: 100vh;
-    margin-left: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
 .caja {
     position: relative;
     width: 200px;
-    height: 200px;
+    height: 200px;   
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     animation: girar 15s ease-in-out alternate infinite;
