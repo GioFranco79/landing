@@ -2,6 +2,8 @@
 
 /* https://fonts.google.com/ */
 
+/* Reglas comunes */
+
 * {
     margin: 0;
     text-decoration: none;
@@ -120,37 +122,23 @@ a:link {
         width: 80px;
         margin: 40px auto;
     }
-
-    .caja {
-        margin-left: 50px;
-    }    
 }
 
 /* Estilos específicos para pantallas medianas */
 @media only screen and (max-width: 1023px) and (min-width: 501px) {
-    .content-wrapper {
-        display: flex; /* Organiza los elementos en fila */
-        justify-content: center;
-        align-items: center; /* Alinea verticalmente al centro */
-    }
-
-    #half1, #half2 {
-        height: 510px; /* Altura fija para ambas secciones */
-        display: inline-block; /* Mantiene un layout estándar */        
-    }
-
-    #half1 {        
-        margin-right: 20px; /* Separación entre half1 y half2 */
+    #half1 {
+        height: 510px;
+        display: inline-block;
+        margin-right: 20px;
         border-radius: 20px 0 0 20px;
     }
 
     #half2 {
+        height: 510px;
+        display: inline-block;
+        margin: auto 0;
         border-radius: 0 20px 20px 0;
     }
-
-    .caja {
-        margin-left: 50px;
-    }    
 }
 
 /* Estilos específicos para pantallas grandes */
@@ -182,25 +170,26 @@ a:link {
         border-radius: 0 20px 20px 0;
     }
 
-    #half3 {        
+    #half3 {
+        margin-top: 15px;
         margin-left: 100px;
         display: inline-block;
     }
 
     #caragio {
         display: inline-block;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-right: 90px;
     }
 
     .contenedor {
         margin-left: 30px;
-    }    
+    }
 }
 
 /************ Cubo *****************/
 
-.caja {    
+.caja {
     position: relative;
     width: 200px;
     height: 200px;   
