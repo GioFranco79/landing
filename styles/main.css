@@ -98,13 +98,34 @@ a:link {
     margin: 50px auto;
 }
 
-.contenedor {
-    width: 100vw;
-    height: 100vh;
+.page-text {
+    background-color: darkgrey;
+    width: 60vw;
+    height: auto;
     margin: 30px auto;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: center;    
+    border: solid 3px white;    
+    border-radius: 20px;
+    padding: 7%;
+}
+
+.page-text p {
+    color: steelblue;
+    font-family: "Comfortaa", cursive;
+    font-size: 1.5em;
+    margin: 15px 0;    
+}
+
+.page-text li {
+    color: steelblue;
+    font-family: "Comfortaa", cursive;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.contenedor {
+    margin-top: 30px;
 }
 
 /* Estilos específicos para pantallas pequeñas */
